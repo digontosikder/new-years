@@ -369,3 +369,20 @@
     margin-top: 16px;
     
 }
+/* coll section */
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 1320px;
+    margin: 0 auto;
+
+}
+.img-box{
+    width: 424px;
+    height: 450px;
+    margin-top: 10px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
